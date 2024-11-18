@@ -3,3 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: linear-gradient(#F694C1, #D3F8E2);
+    height: 100vh;
+    font-family: Tahoma, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+h1 {
+    font-size: 42px;
+    width: 28%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#phone-container {
+    background-color: #353935;
+    border: 2px solid #353935;
+    border-radius: 15px;
+    height: 450px;
+    width: 240px;
+}
+
+#camera {
+    height: 12px;
+    width: 12px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #F0F7EE;
+    margin: 15px auto;
+}
+
+#screen {
+    height: 80%;
+    width: 85%;
+    background-color: #F0F7EE;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#user-label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#user-input {
+    margin-top: 10px;
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#btn-container {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 4px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px groove black;
+}
+
