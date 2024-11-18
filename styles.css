@@ -44,7 +44,7 @@ h1 {
 }
 
 #screen {
-    height: 80%;
+    height: 78%;
     width: 85%;
     background-color: #F0F7EE;
     margin: 0 auto;
@@ -65,8 +65,18 @@ h1 {
     font-size: 18px;
 }
 
+#results-div {
+    height: 75%;
+    width: 100%;
+    overflow-y:auto;
+}
+
+#results-div p {
+    margin-top: 10px;
+}
+
 #btn-container {
-    margin-top: 6px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -76,5 +86,9 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     border: 1px groove black;
+}
+
+.invalid {
+    color: red;
 }
 
